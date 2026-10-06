@@ -1,0 +1,42 @@
+# R / RStudio
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# macOS
+
+.DS_Store
+**/.DS_Store
+
+# Data: ignore contents of data/ but keep small metadata files
+
+data/*
+!data/metadata/
+
+# Sequencing and large files anywhere in the repository
+
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+
+# Intermediate R objects (regenerable from scripts)
+
+*.rds
+*.rda
+*.RData
+
+# Non-public material and logs
+
+paper/
+omnipathr-log/
+
+# Quarto / rendering
+
+.quarto/
+*_cache/
+*_files/
